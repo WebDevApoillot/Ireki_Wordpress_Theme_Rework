@@ -1,0 +1,156 @@
+/*
+Theme Name: neve Enfant
+Description: Theme enfant de neve pour openclassroom
+Author: Alexis Poillot
+Author URI: https://irekiisland.wordpress.com
+Template: neve
+Version: 1.0
+*/
+
+body{
+	background : red;
+}
+a:visited {
+	color:orange;
+}
+
+/*  ----------Homepage -----------*/
+.nav-container {
+	z-index: 100;
+}
+
+.entry-meta {
+	text-align: center;
+}
+.post-title {
+	text-align: center;
+	background : red;
+}
+.rt-col-md-4 {
+	margin: auto;
+}
+
+.page-title {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+ 
+.nf-form-layout {
+  background: #9dc2fb;
+  border: 1px solid #c4c4c4;
+  border-radius: 0;
+  box-shadow: none;
+  color: #787878;
+  transition: all .5s;
+  border-radius: 30px;
+  padding-top:30px;
+  }
+
+                  
+  
+/*  ----------Homepage -----------*/
+.nf-before-form-content {
+	text-align: center;
+}
+  #nf-field-12 {
+  border: green;
+  padding-left: 12px;
+  margin: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: steelblue;
+  align-content:center;
+  display:grid;
+  }
+  #nf-form-title-2 > h3 {
+		margin-left:41%;
+  }
+  #nf-field-24-wrap {
+		display:none;
+  }
+  #nf-field-25  {
+		margin-left:41%;
+  }
+ .footer-credits {
+ display: none;
+ }
+
+ #masthead {
+ position: fixed;
+ z-index: 999;
+ width: 100%;
+ }
+.em-search-wrapper {
+ display: none;
+ }
+ #current-events {
+ border-style: double;
+ text-align:center;
+ }
+ .event-time {
+border: double;
+text-align:center;
+
+
+ }
+  .event-name {
+border: double;
+text-align:center;
+ }
+  .event-description {
+border: double;
+text-align:center;
+ }
+  .inscription {
+border: double;
+text-align:center;
+ }
+
+
+#current-events > tbody > tr {
+border-style: solid;
+background-color: #93B7FF;
+
+
+}
+#current-events > tbody > tr:hover {
+background-color: #9beefa;
+}
+
+#current-events > tbody > tr > td {
+padding: 20px;
+border:double;
+
+}
+
+
+.btn {
+
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid white;
+	color: white;
+	border-radius: 20px;
+	background-color: rgb(17, 75, 147) !important;
+}
+
+.site-logo:hover {
+	animation: scaleup 2s ;
+	animation-timing-function:ease 0s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	animation-fill-mode:forwards;
+}
+@keyframes scaleup {
+  0% {
+    transform: scale(0.5);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+

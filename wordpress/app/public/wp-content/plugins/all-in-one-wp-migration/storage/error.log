@@ -1,0 +1,18 @@
+Jun 29 2019 00:23:13
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;GoogleSitemapGeneratorStatus&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":74}
+
+Jun 29 2019 00:23:13
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;GoogleSitemapGeneratorStatus&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":74}
+
+Jun 29 2019 00:23:13
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;GoogleSitemapGeneratorStatus&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":74}
+
+Jun 29 2019 00:23:13
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;GoogleSitemapGeneratorStatus&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":74}
+
+Jun 29 2019 00:23:13
+{"Number":8,"Message":"Ai1wm_Database_Utility::replace_serialized_values(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;GoogleSitemapGeneratorStatus&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition","File":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":74}
+
+Jun 29 2019 00:23:23
+{"type":8192,"message":"Methods with the same name as their class will not be constructors in a future version of PHP; SEOLinks has a deprecated constructor","file":"\/home\/tristantwr\/emiro\/wp-content\/plugins\/seo-automatic-links\/seo-links.php","line":13}
+

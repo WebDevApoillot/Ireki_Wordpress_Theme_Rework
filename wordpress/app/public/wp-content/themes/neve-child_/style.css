@@ -1,0 +1,238 @@
+/*
+Theme Name: Neve Child
+Theme URI: https://themeisle.com/themes/neve/
+Template: neve
+Author: ThemeIsle
+Author URI: https://ireki.apoillot.fr/
+Description: Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL &amp; translation ready. Look no further. Neve is the perfect theme for you!
+Tags: blog,custom-logo,e-commerce,rtl-language-support,grid-layout,one-column,two-columns,custom-background,custom-colors,custom-header,custom-menu,featured-image-header,featured-images,flexible-header,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,accessibility-ready,wide-blocks,block-styles,footer-widgets,portfolio,left-sidebar,right-sidebar
+Version: 3.1.6.1645803489
+Updated: 2022-02-25 15:38:09
+
+*/
+
+
+
+/*  ----------Homepage -----------*/
+
+
+.nav-container {
+	z-index: 100;
+}
+
+.entry-meta {
+	text-align: center;
+}
+.post-title {
+	text-align: center;
+	background : red;
+}
+.rt-col-md-4 {
+	margin: auto;
+}
+
+.page-title {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+ 
+.nf-form-layout {
+  background: #9dc2fb;
+  border: 1px solid #c4c4c4;
+  border-radius: 0;
+  box-shadow: none;
+  color: #787878;
+  transition: all .5s;
+  border-radius: 30px;
+  padding-top:30px;
+  }
+
+/* -------------Header------------ */
+nav.header--row:nth-child(1) {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+  
+/*  ----------Formulaire -----------*/
+.nf-before-form-content {
+	text-align: center;
+}
+  #nf-field-12 {
+  border: green;
+  padding-left: 12px;
+  margin: auto;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: steelblue;
+  align-content:center;
+  display:grid;
+  }
+
+  #nf-form-title-2 > h3 {
+		margin-left:41%;
+  }
+
+  #nf-field-24-wrap {
+		display:none;
+  }
+
+  #nf-field-25  {
+		margin-left:41%;
+  }
+
+  #nf-form-title-3 {
+		text-align:center;
+  }
+
+  .nf-form-layout {
+  background: #9dc2fb;
+  border: 1px solid #c4c4c4;
+  border-radius: 0;
+  box-shadow: none;
+  color: #787878;
+  transition: all .5s;
+  border-radius: 30px;
+  padding-top:30px;
+  }
+
+ /* ------------ Général --------------- */
+
+ .footer-credits {
+ display: none;
+ }
+
+ #masthead {
+ position: fixed;
+ z-index: 999;
+ width: 100%;
+ }
+
+ a {
+	color:#000000;
+}
+a:visited {
+	color:orange;
+}
+
+#menu-item-313 {
+	border: solid;
+	border-width: thin;
+	border-radius: 10px;
+	padding: 1px;
+	padding-right: 1px;
+	padding-left: 1px;
+	background-color: #235cb4;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+#menu-item-313:hover {
+	box-shadow: 3px 2px 3px #235cb4;
+}
+
+#menu-item-313 a:hover {
+	color:#000000;
+}
+
+ /* -------- Tableau d'évènement ------------ */
+
+.em-search-wrapper {
+ display: none;
+ }
+ #current-events {
+ border-style: double;
+ text-align:center;
+ }
+ .event-time {
+border: double;
+text-align:center;
+
+
+ }
+  .event-name {
+border: double;
+text-align:center;
+ }
+  .event-description {
+border: double;
+text-align:center;
+ }
+  .inscription {
+border: double;
+text-align:center;
+ }
+
+
+#current-events > tbody > tr {
+border-style: solid;
+background-color: #93B7FF;
+
+
+}
+#current-events > tbody > tr:hover {
+background-color: #9beefa;
+}
+
+#current-events > tbody > tr > td {
+padding: 20px;
+border:double;
+
+}
+
+
+.btn {
+
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid white;
+	color: white;
+	border-radius: 20px;
+	background-color: rgb(17, 75, 147) !important;
+}
+
+/* ------------- Animation CSS -------------- */
+
+.site-logo:hover {
+	animation: scaleup 2s ;
+	animation-timing-function:ease 0s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate-reverse;
+	animation-fill-mode:forwards;
+}
+@keyframes scaleup {
+  0% {
+    transform: scale(0.5);
+  }
+  
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ----------------- Media Queries -------------- */
+
+@media screen and (max-width: 600px) {	
+
+	  table {width:100%;}
+
+	  thead {display: none;}
+
+	  tr:nth-of-type(2n) {background-color: inherit;}
+
+	  tr td:first-child {background: #1a1a1a; font-weight:bold;font-size:1.3em;}
+
+	  tbody td {display: block;  text-align:center;}
+
+	  tbody td:before {
+
+	      content: attr(data-th);
+
+	      display: block;
+
+	      text-align:center; 
+
+	  }
+
+	}

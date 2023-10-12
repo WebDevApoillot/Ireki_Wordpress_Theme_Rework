@@ -1,0 +1,216 @@
+[27-Jan-2022 14:58:33 UTC] PHP Warning:  Division by zero in C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\includes\class-custom-image-header.php on line 1286
+[27-Jan-2022 14:58:33 UTC] PHP Stack trace:
+[27-Jan-2022 14:58:33 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\admin-ajax.php:0
+[27-Jan-2022 14:58:33 UTC] PHP   2. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\admin-ajax.php:187
+[27-Jan-2022 14:58:33 UTC] PHP   3. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[27-Jan-2022 14:58:33 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[27-Jan-2022 14:58:33 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[27-Jan-2022 14:58:33 UTC] PHP   6. Custom_Image_Header->get_header_dimensions() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\includes\class-custom-image-header.php:1384
+[27-Jan-2022 16:52:55 UTC] PHP Warning:  Division by zero in C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\includes\class-custom-image-header.php on line 1286
+[27-Jan-2022 16:52:55 UTC] PHP Stack trace:
+[27-Jan-2022 16:52:55 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\admin-ajax.php:0
+[27-Jan-2022 16:52:55 UTC] PHP   2. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\admin-ajax.php:187
+[27-Jan-2022 16:52:55 UTC] PHP   3. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[27-Jan-2022 16:52:55 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[27-Jan-2022 16:52:55 UTC] PHP   5. Custom_Image_Header->ajax_header_crop() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[27-Jan-2022 16:52:55 UTC] PHP   6. Custom_Image_Header->get_header_dimensions() C:\Users\apl97\Local Sites\wordpress\app\public\wp-admin\includes\class-custom-image-header.php:1384
+[10-Feb-2022 21:57:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\apl97\Local Sites\wordpress\app\public\wp-content\themes\shapely-child\functions.php on line 9
+[10-Feb-2022 21:57:11 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\apl97\Local Sites\wordpress\app\public\wp-content\themes\shapely-child\functions.php on line 9
+[10-Feb-2022 22:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1806
+[10-Feb-2022 22:39:56 UTC] PHP Stack trace:
+[10-Feb-2022 22:39:56 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[10-Feb-2022 22:39:56 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[10-Feb-2022 22:39:56 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[10-Feb-2022 22:39:56 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[10-Feb-2022 22:39:56 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[10-Feb-2022 22:39:56 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[10-Feb-2022 22:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[10-Feb-2022 22:39:56 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[10-Feb-2022 22:39:56 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[10-Feb-2022 22:39:56 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1806
+[10-Feb-2022 22:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1807
+[10-Feb-2022 22:39:56 UTC] PHP Stack trace:
+[10-Feb-2022 22:39:56 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[10-Feb-2022 22:39:56 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[10-Feb-2022 22:39:56 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[10-Feb-2022 22:39:56 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[10-Feb-2022 22:39:56 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[10-Feb-2022 22:39:56 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[10-Feb-2022 22:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[10-Feb-2022 22:39:56 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[10-Feb-2022 22:39:56 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[10-Feb-2022 22:39:56 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1807
+[10-Feb-2022 22:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1810
+[10-Feb-2022 22:39:56 UTC] PHP Stack trace:
+[10-Feb-2022 22:39:56 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[10-Feb-2022 22:39:56 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[10-Feb-2022 22:39:56 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[10-Feb-2022 22:39:56 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[10-Feb-2022 22:39:56 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[10-Feb-2022 22:39:56 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[10-Feb-2022 22:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[10-Feb-2022 22:39:56 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[10-Feb-2022 22:39:56 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[10-Feb-2022 22:39:56 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1810
+[10-Feb-2022 22:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1811
+[10-Feb-2022 22:39:56 UTC] PHP Stack trace:
+[10-Feb-2022 22:39:56 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[10-Feb-2022 22:39:56 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[10-Feb-2022 22:39:56 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[10-Feb-2022 22:39:56 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[10-Feb-2022 22:39:56 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[10-Feb-2022 22:39:56 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[10-Feb-2022 22:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[10-Feb-2022 22:39:56 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[10-Feb-2022 22:39:56 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[10-Feb-2022 22:39:56 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1811
+[10-Feb-2022 22:39:56 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1812
+[10-Feb-2022 22:39:56 UTC] PHP Stack trace:
+[10-Feb-2022 22:39:56 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[10-Feb-2022 22:39:56 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[10-Feb-2022 22:39:56 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[10-Feb-2022 22:39:56 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[10-Feb-2022 22:39:56 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[10-Feb-2022 22:39:56 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[10-Feb-2022 22:39:56 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[10-Feb-2022 22:39:56 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[10-Feb-2022 22:39:56 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[10-Feb-2022 22:39:56 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[10-Feb-2022 22:39:56 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[10-Feb-2022 22:39:56 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[10-Feb-2022 22:39:56 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1812
+[10-Feb-2022 22:39:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_rtl() on null in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1815
+Stack trace:
+#0 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(307): wp_localize_jquery_ui_datepicker('')
+#1 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_the in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1815
+[25-Feb-2022 13:00:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1806
+[25-Feb-2022 13:00:06 UTC] PHP Stack trace:
+[25-Feb-2022 13:00:06 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[25-Feb-2022 13:00:06 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[25-Feb-2022 13:00:06 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[25-Feb-2022 13:00:06 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[25-Feb-2022 13:00:06 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[25-Feb-2022 13:00:06 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[25-Feb-2022 13:00:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[25-Feb-2022 13:00:06 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[25-Feb-2022 13:00:06 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[25-Feb-2022 13:00:06 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1806
+[25-Feb-2022 13:00:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1807
+[25-Feb-2022 13:00:06 UTC] PHP Stack trace:
+[25-Feb-2022 13:00:06 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[25-Feb-2022 13:00:06 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[25-Feb-2022 13:00:06 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[25-Feb-2022 13:00:06 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[25-Feb-2022 13:00:06 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[25-Feb-2022 13:00:06 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[25-Feb-2022 13:00:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[25-Feb-2022 13:00:06 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[25-Feb-2022 13:00:06 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[25-Feb-2022 13:00:06 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1807
+[25-Feb-2022 13:00:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1810
+[25-Feb-2022 13:00:06 UTC] PHP Stack trace:
+[25-Feb-2022 13:00:06 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[25-Feb-2022 13:00:06 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[25-Feb-2022 13:00:06 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[25-Feb-2022 13:00:06 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[25-Feb-2022 13:00:06 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[25-Feb-2022 13:00:06 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[25-Feb-2022 13:00:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[25-Feb-2022 13:00:06 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[25-Feb-2022 13:00:06 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[25-Feb-2022 13:00:06 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1810
+[25-Feb-2022 13:00:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1811
+[25-Feb-2022 13:00:06 UTC] PHP Stack trace:
+[25-Feb-2022 13:00:06 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[25-Feb-2022 13:00:06 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[25-Feb-2022 13:00:06 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[25-Feb-2022 13:00:06 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[25-Feb-2022 13:00:06 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[25-Feb-2022 13:00:06 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[25-Feb-2022 13:00:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[25-Feb-2022 13:00:06 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[25-Feb-2022 13:00:06 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[25-Feb-2022 13:00:06 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1811
+[25-Feb-2022 13:00:06 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1812
+[25-Feb-2022 13:00:06 UTC] PHP Stack trace:
+[25-Feb-2022 13:00:06 UTC] PHP   1. {main}() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:0
+[25-Feb-2022 13:00:06 UTC] PHP   2. require() C:\Users\apl97\Local Sites\wordpress\app\public\index.php:17
+[25-Feb-2022 13:00:06 UTC] PHP   3. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-blog-header.php:13
+[25-Feb-2022 13:00:06 UTC] PHP   4. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-load.php:50
+[25-Feb-2022 13:00:06 UTC] PHP   5. require_once() C:\Users\apl97\Local Sites\wordpress\app\public\wp-config.php:77
+[25-Feb-2022 13:00:06 UTC] PHP   6. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-settings.php:519
+[25-Feb-2022 13:00:06 UTC] PHP   7. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP   9. WP_Customize_Manager->setup_theme() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  10. WP_Customize_Manager->wp_die() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:551
+[25-Feb-2022 13:00:06 UTC] PHP  11. wp_enqueue_scripts() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php:454
+[25-Feb-2022 13:00:06 UTC] PHP  12. do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:2105
+[25-Feb-2022 13:00:06 UTC] PHP  13. WP_Hook->do_action() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php:474
+[25-Feb-2022 13:00:06 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:331
+[25-Feb-2022 13:00:06 UTC] PHP  15. wp_localize_jquery_ui_datepicker() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php:307
+[25-Feb-2022 13:00:06 UTC] PHP  16. array_values() C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1812
+[25-Feb-2022 13:00:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function is_rtl() on null in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php:1815
+Stack trace:
+#0 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(307): wp_localize_jquery_ui_datepicker('')
+#1 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->setup_the in C:\Users\apl97\Local Sites\wordpress\app\public\wp-includes\script-loader.php on line 1815
